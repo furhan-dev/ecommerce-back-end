@@ -14,6 +14,8 @@ The back-end provides the following API endpoints:
 
 `/api/tags`
 
+A walkthrough demo can be found [here](https://drive.google.com/file/d/1bO23ipo907CvzWbGw0obaRPJLUPV5n2r/view)
+
 ## Table of Contents
 
 * [Installation](#Installation)
