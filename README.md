@@ -1,4 +1,4 @@
-# Note Taker App
+# E-Commerce Retail Back End
 
 ![License Badge](https://img.shields.io/badge/License-MIT-green)
 
