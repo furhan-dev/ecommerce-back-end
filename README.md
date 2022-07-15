@@ -25,11 +25,22 @@ The back-end provides the following API endpoints:
 ## Installation
 
 ```terminal
+touch .env
+
+# open the .env file and add your db credentials
+# be sure to include the DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PW='root'
+DB_NAME='ecommerce_db'
+
+# install all dependencies
 npm i
-# From MySQL shell
+
+# open the mysql shell and source the db schema
 SOURCE db/schema.sql
-# From your command line
-npm run seed 
+
+# after exiting the mysql shell, seed the db if you want test data, otherwise start the server
+npm run seed # optional
 npm start
 ```
 
